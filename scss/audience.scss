@@ -1,0 +1,76 @@
+.navbar-brand{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: rgb(20,20,20);
+}
+
+.logo img{
+   width: 100px;
+   height: auto; 
+}
+
+
+.audiences {
+    position: absolute;
+    top: 30%;
+    left:30%;
+    text-align: center;
+    color: white;
+}
+.audiences .row{
+    margin-top: 20px;
+    padding: 0
+}
+.audiences img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.audiences img:hover{
+    border: 2px solid white;
+    padding: 0;
+}
+
+.audiences i{
+    font-size: 140px;
+    margin-top: 5%;
+    margin-bottom: 40px;
+    height: 180px;
+    width: 200px;
+    color:grey;
+    padding: 8%;
+}
+
+.audiences i:hover{
+    background-color: white;
+}
+
+.management{
+    text-align: center;
+   
+    height: 40px;
+}
+
+.management .btn{
+    background: rgb(20, 20, 20);
+    border:1px solid gray ;
+}
+
+.management a{
+    font-size: 30px;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.management a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.management .btn:hover {
+    border: 1px solid white;
+}
+
